@@ -1,0 +1,52 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    colors: {
+      primary: "#f8f9fb",
+      secondary: "#1C2534",
+      input: "#2C3444",
+      "primary-light": "#FFEEEF",
+      dark: "#151B28",
+      white: "#FFF",
+      hold: "#f69400",
+      fav: "#fd7014",
+      danger: "#8c0101",
+      "light-grey": "#f4f4f4",
+      grey: "#717171",
+      complete: "#05c192",
+      love: "#E72929",
+      black: "#0c0c0c",
+      button: "#437ef7",
+    },
+    padding: {
+      smallNavBar: "16px",
+      navBar: "20px 160px 20px 160px",
+      mobileTopBodyPadding: "32px 16px 40px 16px",
+      laptopTobBodyPadding: "80px 30px 92px 30px",
+      mobileMiddleBodyPadding: "32px 16px 32px 16px",
+      laptopMiddleBodyContentPadding: "0px 32px 0px 32px",
+      laptopMiddleBodyPadding: "64px 0px 64px 0px",
+      mobileTeamMemberPadding: "40px 32px 40px 32px",
+      laptopTeamMemberPadding: "64px 0px 64px 0px",
+      formLaptopPadding: "64px 0px 64px 0px",
+      teamMemberPaddingForLaptop: "0px 32px 0px 32px",
+      bottomBodyPaddingForMobile: "40px 16px 40px 16px",
+      bottomBodyPaddingForLaptop: "64px 0px 64px 0px",
+    },
+    screens: {
+      mobile: "600px",
+      tablet: "1020px",
+      laptop: "1300px",
+    },
+    gridTemplateColumns: {
+      formGridLaptop: "repeat(auto-fit, minmax(550px, 1fr))",
+      fromGridTab: "repeat(auto-fit, minmax(250px, 1fr))",
+      middleBodyContent: "repeat(auto-fit, minmax(380px,1fr))",
+
+      // fromGridMobile: "repeat(auto-fit, minmax(550px, 1fr))",
+    },
+    extend: {},
+  },
+  plugins: [],
+};
